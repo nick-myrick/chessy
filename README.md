@@ -2,4 +2,4 @@
 Features to be included:
 - Fully interactale board
 - Complete with a classic chess setup as well as variations such as Fischer Random
-- Custom AI's made from both a classical approach as well as a NN approach
+- Custom Enemy AI's made from both a classical approach as well as a NN approach
