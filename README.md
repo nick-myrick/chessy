@@ -5,5 +5,5 @@ Features to be included:
 - Custom Enemy AI's made from both a classical approach as well as a NN approach.
 
 Current WIP:
-- Implementing board and piece design with OOP approach.
-- Utilizing bitboards to represent player states and process data, implemented using the bitstring python library.
+- Implementing board and piece design with a focus on OOP for extensibility.
+- Utilizing bitboards to efficiently represent player states and quickly process data. Implemented using the 'bitstring' Python library.
