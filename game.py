@@ -22,11 +22,5 @@ class ClassicGame(Game):
             CLASSIC
         )
 
-        whiteState = self.board.whitePlayer.pieceState
-        whiteColor = self.board.whitePlayer.playerColor
-        print(whiteState)
-        print(whiteColor)
-
-
 if __name__ == "__main__":
     game = ClassicGame()
