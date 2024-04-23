@@ -14,7 +14,6 @@ Classic piece configuration for white and black players
 '''
 class ClassicPieces(Pieces):
     def __init__(self, playerColor):
-        pieceState = None
         if playerColor == WHITE:
             pieceState = {
                 PAWN:   BitArray(bin="0000000011111111000000000000000000000000000000000000000000000000"),

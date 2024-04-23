@@ -21,6 +21,7 @@ class ClassicGame(Game):
             ),
             CLASSIC
         )
+        self.board.getLegalMoves(WHITE)
 
 if __name__ == "__main__":
     game = ClassicGame()
