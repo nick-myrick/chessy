@@ -7,6 +7,7 @@ class Game:
         self.gameType = gameType
         self.player = firstPlayer
         self.board = board
+        print(board for board in board.bitBoards)
     
     def startGame(self, gameType):
         print("Game Started")
@@ -21,7 +22,3 @@ class ClassicGame(Game):
             ),
             CLASSIC
         )
-        self.board.getLegalMoves(WHITE)
-
-if __name__ == "__main__":
-    game = ClassicGame()
